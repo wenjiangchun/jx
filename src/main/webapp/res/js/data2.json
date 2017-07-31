@@ -1,0 +1,42 @@
+[
+  {
+    "url":"http://121.42.151.97:6080/arcgis/rest/services/jx/MapServer",
+    "mapId":"wx01",
+    "type":"wx",
+    "description":"卫星",
+    "subLayers": [
+      {
+      "id": 0,
+       "date":"1984",
+       "dateLevel":1,
+        "extent":"[295443,3406744.028,300873.9,3410798.028]",
+        "wkid":32651
+      },
+      {
+        "id": 1,
+        "date":"1985",
+        "dateLevel":1,
+        "extent":"[284580.7951987261,3404479.1011139276,312820.4301987261,3436521.1199089275]",
+        "wkid":32651
+      }
+    ]
+  },
+  {
+    "url":"http://121.42.151.97:6080/arcgis/rest/services/test/MapServer",
+    "type":"wrj",
+    "mapId":"wrj01",
+    "description":"无人机",
+    "subLayers": [
+      {
+        "id": 0,
+        "date":"1984",
+        "dateLevel":1
+      },
+      {
+        "id": 1,
+        "date":"1987",
+        "dateLevel":1
+      }
+    ]
+  }
+]

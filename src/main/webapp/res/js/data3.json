@@ -1,0 +1,234 @@
+﻿[
+  {
+    "url":"http://localhost:6080/arcgis/rest/services/wt/MapServer",
+    "mapId":"wt",
+    "type":"wt",
+    "description":"水系",
+    "subLayers": [
+      {
+      "id": 0,
+       "date":"2017-02",
+       "dateLevel":2,
+        "extent":"[295443,3406744.028,300873.9,3410798.028]",
+        "wkid":32651
+      }
+    ]
+  },
+  {
+    "url":"http://localhost:6080/arcgis/rest/services/br/MapServer",
+    "type":"br",
+    "mapId":"br",
+    "description":"蓝钢棚",
+    "subLayers": [
+      {
+        "id": 0,
+        "date":"2017-02",
+        "dateLevel":2
+      },
+      {
+        "id": 1,
+        "date":"2017-04",
+        "dateLevel":2
+      },
+      {
+        "id": 1,
+        "date":"2017-04",
+        "dateLevel":2
+      },
+      {
+        "id": 2,
+        "date":"2017-05",
+        "dateLevel":2
+      },
+      {
+        "id": 3,
+        "date":"2017-06",
+        "dateLevel":2
+      },
+      {
+        "id": 4,
+        "date":"2017-07",
+        "dateLevel":2
+      }
+    ]
+  },
+  {
+    "url":"http://localhost:6080/arcgis/rest/services/gf/MapServer",
+    "type":"gf",
+    "mapId":"gf",
+    "description":"GF-1/2 PMS",
+    "subLayers": [
+      {
+        "id": 0,
+        "date":"2015-01-17",
+        "dateLevel":3
+      },
+      {
+        "id": 1,
+        "date":"2015-05-05",
+        "dateLevel":3
+      },
+      {
+        "id": 2,
+        "date":"2016-07-22",
+        "dateLevel":3
+      },
+      {
+        "id": 3,
+        "date":"2017-04-29",
+        "dateLevel":3
+      }
+    ]
+  },
+  {
+    "url":"http://localhost:6080/arcgis/rest/services/ls/MapServer",
+    "type":"ls",
+    "mapId":"ls",
+    "description":"卫星",
+    "subLayers": [
+      {
+        "id": 0,
+        "date":"1984",
+        "dateLevel":1
+      },
+      {
+        "id": 1,
+        "date":"1987",
+        "dateLevel":1
+      },
+      {
+        "id": 2,
+        "date":"1990",
+        "dateLevel":1
+      },
+      {
+        "id": 3,
+        "date":"1993",
+        "dateLevel":1
+      },
+      {
+        "id": 4,
+        "date":"1996",
+        "dateLevel":1
+      },
+      {
+        "id": 5,
+        "date":"1999",
+        "dateLevel":1
+      },
+      {
+        "id": 6,
+        "date":"2002",
+        "dateLevel":1
+      },
+      {
+        "id": 7,
+        "date":"2005",
+        "dateLevel":1
+      },
+      {
+        "id": 8,
+        "date":"2008",
+        "dateLevel":1
+      },
+      {
+        "id": 9,
+        "date":"2011",
+        "dateLevel":1
+      },
+      {
+        "id": 10,
+        "date":"2015/05/20",
+        "dateLevel":3
+      },
+      {
+        "id": 11,
+        "date":"2015/10/11",
+        "dateLevel":3
+      },
+      {
+        "id": 12,
+        "date":"2015/12/14",
+        "dateLevel":3
+      },
+      {
+        "id": 13,
+        "date":"2016/01/01",
+        "dateLevel":3
+      },
+      {
+        "id": 14,
+        "date":"2016/02/02",
+        "dateLevel":3
+      },
+      {
+        "id": 15,
+        "date":"2016/03/05",
+        "dateLevel":3
+      },
+      {
+        "id": 16,
+        "date":"2016/04/14",
+        "dateLevel":3
+      },
+      {
+        "id": 17,
+        "date":"2016/07/27",
+        "dateLevel":3
+      },
+      {
+        "id": 18,
+        "date":"2016/12/02",
+        "dateLevel":3
+      },
+      {
+        "id": 19,
+        "date":"2017/01/29",
+        "dateLevel":3
+      },
+      {
+        "id": 20,
+        "date":"2017/02/28",
+        "dateLevel":3
+      },
+      {
+        "id": 21,
+        "date":"2017/04/02",
+        "dateLevel":3
+      },
+      {
+        "id": 22,
+        "date":"2017/05/27",
+        "dateLevel":3
+      }
+    ]
+  },
+  {
+    "url":"http://localhost:6080/arcgis/rest/services/uav/MapServer",
+    "type":"uav",
+    "mapId":"uav",
+    "description":"无人机",
+    "subLayers": [
+      {
+        "id": 0,
+        "date":"2015-01-17",
+        "dateLevel":3
+      },
+      {
+        "id": 1,
+        "date":"2015-05-05",
+        "dateLevel":3
+      },
+      {
+        "id": 2,
+        "date":"2016-07-22",
+        "dateLevel":3
+      },
+      {
+        "id": 3,
+        "date":"2017-04-29",
+        "dateLevel":3
+      }
+    ]
+  }
+]

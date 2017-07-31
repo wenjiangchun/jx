@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,pre,a,code,em,img,small,strong,sub,sup,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+a{color:#00ffff/*#424242*/; text-decoration:none;}
+a:hover{text-decoration:none}
+ol,ul{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+body{height:100%; font:12px/18px Tahoma, Helvetica, Arial, Verdana, "\5b8b\4f53", sans-serif; color:#51555C; background:#162934}
+img{border:none}
+
+#main{width:910px; min-height:600px; margin:30px auto 0 auto; background:#fff; -moz-border-radius:12px;-khtml-border-radius: 12px;-webkit-border-radius: 12px; border-radius:12px;}
+h2.top_title{margin:4px 20px; padding-top:15px; padding-left:20px; padding-bottom:10px; border-bottom:1px solid #d3d3d3; font-size:18px; color:#a84c10; background:url(../images/arrL.gif) no-repeat 2px 14px}
+
+.wurenji{
+    width:80px;
+    height:70px;
+    background-color:rgba(0,0,0,0.5);
+    position:absolute;
+    right:10px;
+    top:100px;
+    margin:auto auto;
+    border-radius:5px;
+    border: solid 1px rgba(0,255,255,0.5);
+    -webkit-transition:all .3s ease-in;
+    -moz-transition:all .3s ease-in;
+    -ms-transition:all .3s ease-in;
+    -o-transition:all .3s ease-in;
+    transition:all .3s ease-in;
+}
+.wurenji:hover{
+    background-color:rgba(0,0,0,0.7);
+    cursor:pointer;
+    border: solid 1px rgba(0,255,255,0.7);
+}
+
+.fselected{
+    background-color:rgba(0,0,0,1);
+    cursor:pointer;
+    border: solid 1px rgba(0,255,255,1);
+}
+
+#timeDiv{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 20px;
+    z-index: 999;
+    opacity: 0.8;
+    border: solid 1px rgb(0,255,255);
+    background-color: rgba(2,20,24,0.9);
+}
+
+#testId{
+    color: #fff;
+    cursor: pointer;
+    padding: 4px 10px;
+    border-radius: 5px;
+    -webkit-transition:all .5s ease-in;
+    -moz-transition:all .5s ease-in;
+    -ms-transition:all .5s ease-in;
+    -o-transition:all .5s ease-in;
+    transition:all .5s ease-in;
+    background-color: rgba(0,0,0,1);
+    border: solid 1px rgba(0,255,255,1);
+    font-size: 16px;
+}
+
+#testId:hover{
+    background-color: rgba(0,0,0,0.8);
+    border: solid 1px rgba(0,255,255,0.5);
+}
+
+.date_block{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0,255,255,1);
+    border: solid 6px rgba(0,255,255,0.5);
+    border-radius: 50%;
+    background-clip: padding-box;
+    -webkit-transition:all 1s ease-in;
+    -moz-transition:all 1s ease-in;
+    -ms-transition:all 1s ease-in;
+    -o-transition:all 1s ease-in;
+    transition:all 1s ease-in;
+
+    padding-top: 5px;
+
+}
+
+.date_block_active{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255,255,0,1);
+    border: solid 8px rgba(255,255,0,0.5);
+    border-radius: 50%;
+    background-clip: padding-box;
+}

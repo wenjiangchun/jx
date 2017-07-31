@@ -1,0 +1,11 @@
+[
+  {
+    "url" : "http://121.42.151.97:6080/arcgis/rest/services/jx/MapServer",
+    "type" : "wrj",
+    "date" : "2017-2"
+  },{
+    "url" : "http://121.42.151.97:6080/arcgis/rest/services/water01/MapServer",
+    "type" : "wx",
+    "date" : "2017-2"
+}
+]
